@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5834F8681CCB901E00425299 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5834F8661CCB901E00425299 /* Main.storyboard */; };
+		5834F86A1CCB901E00425299 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5834F8691CCB901E00425299 /* Assets.xcassets */; };
+		5834F86D1CCB901E00425299 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5834F86B1CCB901E00425299 /* LaunchScreen.storyboard */; };
+		5834F8781CCB901E00425299 /* ZKStatusBarHUDDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5834F8771CCB901E00425299 /* ZKStatusBarHUDDemoTests.m */; };
+		5834F8831CCB901E00425299 /* ZKStatusBarHUDDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5834F8821CCB901E00425299 /* ZKStatusBarHUDDemoUITests.m */; };
+		5834F8941CCB919700425299 /* ZKStatusBarHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5834F8911CCB919700425299 /* ZKStatusBarHUD.bundle */; };
+		5834F8951CCB919700425299 /* ZKStatusBarHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 5834F8931CCB919700425299 /* ZKStatusBarHUD.m */; };
+		5834F89C1CCB9B6B00425299 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5834F8981CCB9B6B00425299 /* AppDelegate.m */; };
+		5834F89D1CCB9B6B00425299 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5834F8991CCB9B6B00425299 /* main.m */; };
+		5834F89E1CCB9B6B00425299 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5834F89B1CCB9B6B00425299 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5834F8741CCB901E00425299 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5834F8521CCB901E00425299 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5834F8591CCB901E00425299;
+			remoteInfo = ZKStatusBarHUDDemo;
+		};
+		5834F87F1CCB901E00425299 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5834F8521CCB901E00425299 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5834F8591CCB901E00425299;
+			remoteInfo = ZKStatusBarHUDDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5834F85A1CCB901E00425299 /* ZKStatusBarHUDDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZKStatusBarHUDDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5834F8671CCB901E00425299 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5834F8691CCB901E00425299 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5834F86C1CCB901E00425299 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5834F86E1CCB901E00425299 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5834F8731CCB901E00425299 /* ZKStatusBarHUDDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZKStatusBarHUDDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5834F8771CCB901E00425299 /* ZKStatusBarHUDDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZKStatusBarHUDDemoTests.m; sourceTree = "<group>"; };
+		5834F8791CCB901E00425299 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5834F87E1CCB901E00425299 /* ZKStatusBarHUDDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZKStatusBarHUDDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5834F8821CCB901E00425299 /* ZKStatusBarHUDDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZKStatusBarHUDDemoUITests.m; sourceTree = "<group>"; };
+		5834F8841CCB901E00425299 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5834F8911CCB919700425299 /* ZKStatusBarHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ZKStatusBarHUD.bundle; sourceTree = "<group>"; };
+		5834F8921CCB919700425299 /* ZKStatusBarHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKStatusBarHUD.h; sourceTree = "<group>"; };
+		5834F8931CCB919700425299 /* ZKStatusBarHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKStatusBarHUD.m; sourceTree = "<group>"; };
+		5834F8971CCB9B6B00425299 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5834F8981CCB9B6B00425299 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5834F8991CCB9B6B00425299 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5834F89A1CCB9B6B00425299 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5834F89B1CCB9B6B00425299 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5834F8571CCB901E00425299 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5834F8701CCB901E00425299 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5834F87B1CCB901E00425299 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5834F8511CCB901E00425299 = {
+			isa = PBXGroup;
+			children = (
+				5834F8901CCB919700425299 /* ZKStatusBarHUD */,
+				5834F85C1CCB901E00425299 /* ZKStatusBarHUDDemo */,
+				5834F8761CCB901E00425299 /* ZKStatusBarHUDDemoTests */,
+				5834F8811CCB901E00425299 /* ZKStatusBarHUDDemoUITests */,
+				5834F85B1CCB901E00425299 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5834F85B1CCB901E00425299 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5834F85A1CCB901E00425299 /* ZKStatusBarHUDDemo.app */,
+				5834F8731CCB901E00425299 /* ZKStatusBarHUDDemoTests.xctest */,
+				5834F87E1CCB901E00425299 /* ZKStatusBarHUDDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5834F85C1CCB901E00425299 /* ZKStatusBarHUDDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5834F8961CCB9B6B00425299 /* Classes */,
+				5834F85D1CCB901E00425299 /* Supporting Files */,
+			);
+			path = ZKStatusBarHUDDemo;
+			sourceTree = "<group>";
+		};
+		5834F85D1CCB901E00425299 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5834F8691CCB901E00425299 /* Assets.xcassets */,
+				5834F8661CCB901E00425299 /* Main.storyboard */,
+				5834F86B1CCB901E00425299 /* LaunchScreen.storyboard */,
+				5834F86E1CCB901E00425299 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5834F8761CCB901E00425299 /* ZKStatusBarHUDDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				5834F8771CCB901E00425299 /* ZKStatusBarHUDDemoTests.m */,
+				5834F8791CCB901E00425299 /* Info.plist */,
+			);
+			path = ZKStatusBarHUDDemoTests;
+			sourceTree = "<group>";
+		};
+		5834F8811CCB901E00425299 /* ZKStatusBarHUDDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5834F8821CCB901E00425299 /* ZKStatusBarHUDDemoUITests.m */,
+				5834F8841CCB901E00425299 /* Info.plist */,
+			);
+			path = ZKStatusBarHUDDemoUITests;
+			sourceTree = "<group>";
+		};
+		5834F8901CCB919700425299 /* ZKStatusBarHUD */ = {
+			isa = PBXGroup;
+			children = (
+				5834F8911CCB919700425299 /* ZKStatusBarHUD.bundle */,
+				5834F8921CCB919700425299 /* ZKStatusBarHUD.h */,
+				5834F8931CCB919700425299 /* ZKStatusBarHUD.m */,
+			);
+			path = ZKStatusBarHUD;
+			sourceTree = "<group>";
+		};
+		5834F8961CCB9B6B00425299 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5834F8971CCB9B6B00425299 /* AppDelegate.h */,
+				5834F8981CCB9B6B00425299 /* AppDelegate.m */,
+				5834F8991CCB9B6B00425299 /* main.m */,
+				5834F89A1CCB9B6B00425299 /* ViewController.h */,
+				5834F89B1CCB9B6B00425299 /* ViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5834F8591CCB901E00425299 /* ZKStatusBarHUDDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5834F8871CCB901E00425299 /* Build configuration list for PBXNativeTarget "ZKStatusBarHUDDemo" */;
+			buildPhases = (
+				5834F8561CCB901E00425299 /* Sources */,
+				5834F8571CCB901E00425299 /* Frameworks */,
+				5834F8581CCB901E00425299 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZKStatusBarHUDDemo;
+			productName = ZKStatusBarHUDDemo;
+			productReference = 5834F85A1CCB901E00425299 /* ZKStatusBarHUDDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5834F8721CCB901E00425299 /* ZKStatusBarHUDDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5834F88A1CCB901E00425299 /* Build configuration list for PBXNativeTarget "ZKStatusBarHUDDemoTests" */;
+			buildPhases = (
+				5834F86F1CCB901E00425299 /* Sources */,
+				5834F8701CCB901E00425299 /* Frameworks */,
+				5834F8711CCB901E00425299 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5834F8751CCB901E00425299 /* PBXTargetDependency */,
+			);
+			name = ZKStatusBarHUDDemoTests;
+			productName = ZKStatusBarHUDDemoTests;
+			productReference = 5834F8731CCB901E00425299 /* ZKStatusBarHUDDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5834F87D1CCB901E00425299 /* ZKStatusBarHUDDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5834F88D1CCB901E00425299 /* Build configuration list for PBXNativeTarget "ZKStatusBarHUDDemoUITests" */;
+			buildPhases = (
+				5834F87A1CCB901E00425299 /* Sources */,
+				5834F87B1CCB901E00425299 /* Frameworks */,
+				5834F87C1CCB901E00425299 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5834F8801CCB901E00425299 /* PBXTargetDependency */,
+			);
+			name = ZKStatusBarHUDDemoUITests;
+			productName = ZKStatusBarHUDDemoUITests;
+			productReference = 5834F87E1CCB901E00425299 /* ZKStatusBarHUDDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5834F8521CCB901E00425299 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = only;
+				TargetAttributes = {
+					5834F8591CCB901E00425299 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 7TTNEW2X82;
+					};
+					5834F8721CCB901E00425299 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 7TTNEW2X82;
+						TestTargetID = 5834F8591CCB901E00425299;
+					};
+					5834F87D1CCB901E00425299 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 7TTNEW2X82;
+						TestTargetID = 5834F8591CCB901E00425299;
+					};
+				};
+			};
+			buildConfigurationList = 5834F8551CCB901E00425299 /* Build configuration list for PBXProject "ZKStatusBarHUDDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5834F8511CCB901E00425299;
+			productRefGroup = 5834F85B1CCB901E00425299 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5834F8591CCB901E00425299 /* ZKStatusBarHUDDemo */,
+				5834F8721CCB901E00425299 /* ZKStatusBarHUDDemoTests */,
+				5834F87D1CCB901E00425299 /* ZKStatusBarHUDDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5834F8581CCB901E00425299 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5834F8941CCB919700425299 /* ZKStatusBarHUD.bundle in Resources */,
+				5834F86D1CCB901E00425299 /* LaunchScreen.storyboard in Resources */,
+				5834F86A1CCB901E00425299 /* Assets.xcassets in Resources */,
+				5834F8681CCB901E00425299 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5834F8711CCB901E00425299 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5834F87C1CCB901E00425299 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5834F8561CCB901E00425299 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5834F89C1CCB9B6B00425299 /* AppDelegate.m in Sources */,
+				5834F89D1CCB9B6B00425299 /* main.m in Sources */,
+				5834F89E1CCB9B6B00425299 /* ViewController.m in Sources */,
+				5834F8951CCB919700425299 /* ZKStatusBarHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5834F86F1CCB901E00425299 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5834F8781CCB901E00425299 /* ZKStatusBarHUDDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5834F87A1CCB901E00425299 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5834F8831CCB901E00425299 /* ZKStatusBarHUDDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5834F8751CCB901E00425299 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5834F8591CCB901E00425299 /* ZKStatusBarHUDDemo */;
+			targetProxy = 5834F8741CCB901E00425299 /* PBXContainerItemProxy */;
+		};
+		5834F8801CCB901E00425299 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5834F8591CCB901E00425299 /* ZKStatusBarHUDDemo */;
+			targetProxy = 5834F87F1CCB901E00425299 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5834F8661CCB901E00425299 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5834F8671CCB901E00425299 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5834F86B1CCB901E00425299 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5834F86C1CCB901E00425299 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5834F8851CCB901E00425299 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5834F8861CCB901E00425299 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5834F8881CCB901E00425299 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZKStatusBarHUDDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.only.ZKStatusBarHUDDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5834F8891CCB901E00425299 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZKStatusBarHUDDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.only.ZKStatusBarHUDDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5834F88B1CCB901E00425299 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZKStatusBarHUDDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.only.ZKStatusBarHUDDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZKStatusBarHUDDemo.app/ZKStatusBarHUDDemo";
+			};
+			name = Debug;
+		};
+		5834F88C1CCB901E00425299 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZKStatusBarHUDDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.only.ZKStatusBarHUDDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZKStatusBarHUDDemo.app/ZKStatusBarHUDDemo";
+			};
+			name = Release;
+		};
+		5834F88E1CCB901E00425299 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZKStatusBarHUDDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.only.ZKStatusBarHUDDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZKStatusBarHUDDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		5834F88F1CCB901E00425299 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZKStatusBarHUDDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.only.ZKStatusBarHUDDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZKStatusBarHUDDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5834F8551CCB901E00425299 /* Build configuration list for PBXProject "ZKStatusBarHUDDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5834F8851CCB901E00425299 /* Debug */,
+				5834F8861CCB901E00425299 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5834F8871CCB901E00425299 /* Build configuration list for PBXNativeTarget "ZKStatusBarHUDDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5834F8881CCB901E00425299 /* Debug */,
+				5834F8891CCB901E00425299 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5834F88A1CCB901E00425299 /* Build configuration list for PBXNativeTarget "ZKStatusBarHUDDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5834F88B1CCB901E00425299 /* Debug */,
+				5834F88C1CCB901E00425299 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5834F88D1CCB901E00425299 /* Build configuration list for PBXNativeTarget "ZKStatusBarHUDDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5834F88E1CCB901E00425299 /* Debug */,
+				5834F88F1CCB901E00425299 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5834F8521CCB901E00425299 /* Project object */;
+}
